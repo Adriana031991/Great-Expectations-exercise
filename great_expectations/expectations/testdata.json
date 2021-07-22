@@ -131,18 +131,34 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_values_to_not_be_null",
+      "expectation_type": "expect_column_values_to_match_regex",
       "kwargs": {
-        "column": "Unnamed: 0"
+        "column": "palabra",
+        "mostly": 0.01,
+        "regex": "[E,e][M,m][P,p][A,a][N,n][I,i][Z,z][A,a][D,d][A,a]{1,1}"
+      },
+      "meta": {}
+    },{
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "palabra",
+        "mostly": 0.01,
+        "regex": "[E,e][M,m][P,p][A,a][N,n][I,i][Z,z][A,a][D,d][O,o]{1,1}"
+      },
+      "meta": {}
+    },{
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "palabra",
+        "mostly": 0.01,
+        "regex": "[E,e][M,m][P,p][A,a][N,n][I,i][Z,z][A,a][D,d][O,o][s]{1,1}"
       },
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_values_to_match_regex",
+      "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "palabra",
-        "mostly": 0.63,
-        "regex": "[empaniz]"
+        "column": "Unnamed: 0"
       },
       "meta": {}
     },
